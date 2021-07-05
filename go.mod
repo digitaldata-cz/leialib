@@ -1,4 +1,4 @@
-module leialib
+module github.com/digitaldata-cz/leialib
 
 go 1.16
 
