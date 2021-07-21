@@ -15,6 +15,7 @@ type (
 		Arch     string `json:"arch"`     // Server architecture (amd64, arm64, ...)
 		Platform string `json:"platform"` // Server platform (linux, windows,...)
 		OS       string `json:"os"`       // Operating system (CentOS 7.3, ...)
+		UUID     string `json:"uuid"`     // Current UUID (register again with new token)
 	}
 
 	// HTTPS response recieved from gateway
